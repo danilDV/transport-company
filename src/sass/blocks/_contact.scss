@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.contact{
+    margin-top: 100px;
+}
+.contact__wrapper{
+    background-image: url(../../img/contact/contact-form.png);
+    .contact-form{
+        width:699px;
+        height:730px;
+        background-color: $main_color;
+        
+        .contact-form-fill{
+            button{
+                margin-top: 30px;
+                border: none; 
+                outline: none;
+                width: 206px;
+                height: 50px;
+                text-align: center;
+                color: $main_color;
+                border-radius: 5%;
+            }
+            padding-top: 56px;
+            width: 579px;
+            height: 609px;
+            margin: 0 auto;
+            text-align: left;
+            color:#fff;
+            h1{
+
+                font-family: Exo 2;
+                font-size: 48px;
+            }
+            .contact-form-task{
+                p{
+                    font-family: 'PT Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            .contact-form-line{
+                width: 100%;
+                margin-top:47px;
+                border-bottom: 1px solid rgba(255, 255, 255, .2);
+            }
+
+            .contact-form-attachments{
+                margin-top: 60px;
+                h5, p{
+                    font-family: 'PT Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .task-attachment{
+                    width: 100%;
+                    display:flex;
+                    border-bottom: 1px solid rgba(255, 255, 255, .2);
+                    .task-icon{
+                        width: 19px;
+                        height: 21px;
+                        margin: 10px;
+                        margin-top: -2px;
+                    }
+                }
+                .photo-attachment{
+                    margin-top: 20px;
+                    width: 100%;
+                    display:flex;
+                    border-bottom: 1px solid rgba(255, 255, 255, .2);
+                    .photo-icon{
+                        width: 19px;
+                        height: 21px;
+                        margin: 10px;
+                        margin-top: -2px;
+                    }
+                }
+            }
+        }
+
+    }
+}

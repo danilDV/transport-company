@@ -1,0 +1,98 @@
+.contacts {
+    margin-top: 130px;
+    &__container {
+        width: 1240px;
+        margin: 0 auto;
+    }
+    &__title {
+        color: $text-color;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 125%;
+    }
+    &__wrapper {
+        margin-top: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links {
+        width: 248px;
+        &__item {
+            list-style-type: none;
+            margin-top: 44px;
+            display: flex;
+            
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &__icon_1 {
+            width: 23px;
+            height: 32px;
+        }
+        &__icon_2 {
+            width: 28px;
+            height: 18px;
+        }
+        &__icon_3 {
+            width: 28px;
+            height: 28px;
+        }
+        &__values {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 36px;
+            .label {
+                font-weight: normal;
+                font-size: 14px;
+                color: #6B6B6C;
+                line-height: 14px;
+                font-family: PT Sans;
+                
+            }
+            .value {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                color: $text-color;
+            }
+        }        
+    }
+    &__requisites {
+        background: #F9F9FB;
+        border-radius: 5px;
+        padding: 40px 72px 40px 48px;
+        width: 794px;
+
+        &__item {
+            list-style-type: none;
+            border-bottom: 1px solid #E9EAF2;
+            padding-bottom: 16px;
+            margin-top: 32px;
+            display: flex;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &__label {
+            font-family: PT Sans;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 16px;
+            color: #6B6B6C;
+            width: 175px;
+            margin-right: 56px;
+        }
+        &__value {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+            width: 443px;
+            color: $text-color;
+        }
+        
+    }
+
+}

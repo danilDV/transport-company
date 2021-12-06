@@ -1,0 +1,44 @@
+.delivery{
+    margin-top: 30px;
+}
+
+.delivery-cards-wrapper{
+    margin: 0 auto;
+    width: 1183px;
+
+}
+.delivery-stage-card{
+    
+    width: 1183px;
+    height: 254px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    border-radius: 15px;
+    
+    .card-wrapper{
+        .card-image{
+            margin-right: 56px; 
+            margin-top: 32px;
+
+        }
+        .card-caption{
+            margin-top: 37px;
+            width: 568px;
+            height: 157px;
+            .hr{
+                width: 96px;
+                border-bottom: 4px solid #FFCE50;
+            }
+            p{
+                font-family: PT Sans;
+                color: $descr-color;
+                font-size: 16px;
+            }
+        }
+        display: flex;
+        width: 1031px;
+        height: 190px;
+        margin: 0 auto;
+
+    }
+}

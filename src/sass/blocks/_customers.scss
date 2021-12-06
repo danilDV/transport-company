@@ -1,0 +1,82 @@
+.customers {
+    margin-top: 60px;
+    &__background {
+        display: block;
+        background-color: $main-color;
+        padding: 85px 67px;
+        
+    }
+    &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            background-image: url(../../img/customers/path2195.png);
+          
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 28px;
+        border-bottom: 1px solid #E9EAF2;
+        &-logo {
+            height: 50px;
+            width: 100px;
+            h3 {
+                text-align: center;
+                color: $main-color;
+                font-size: 32px;
+                line-height: 32px;
+            }
+        }
+        &-descr {
+            display: block;
+            height: 62px;
+            width: 274px;
+            font-size: 11px;
+            color: $descr-color;
+        }
+    }
+    &__table-background {
+        display: block;
+        height: 747px;
+        width: 652px;
+        border-radius: 8px;
+        background-color: #fff;
+        padding: 28px 40px 28px 40px;
+    }
+}
+
+table{
+    width: 100%;
+    thead{
+        background-color: $main-color;
+        text-align: center; 
+        font-family: Exo 2;
+        color: #fff;
+        height: 45px;
+    }
+
+    tbody{
+
+        td{
+            padding: 10px;
+        }
+        color: $descr-color;
+        font-family: PT Sans;
+        font-weight: normal;
+        
+        .table-price, .table-number, .table-who, .table-place{
+            font-weight: bold;
+            color: black;
+        }
+
+        .table-img, .table-name, .table-producer{
+            border-right: 1px solid $descr-color;
+            border-bottom: 1px solid $descr-color;
+            
+        }
+        .table-contact{
+            border-bottom: 1px solid $descr-color;
+        }
+
+    }
+}

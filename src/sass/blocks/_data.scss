@@ -1,0 +1,114 @@
+.data {
+    margin-top: 120px;
+    &__container {
+        margin: 0 auto;
+        width: 1240px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 48px;
+        color: $text-color;
+    }
+
+    .data-blocks {
+        margin-top: 48px;
+        background: #F9F9FB;
+        border-radius: 5px;
+        min-height: 677px;
+        padding: 48px 110px 48px 56px;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &__block {
+            margin-top: 38px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &__title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            color: #363738;
+        }
+        &__description {
+            font-family: "PT Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: $text-color;
+        }
+        &__file {
+            font-family: "PT Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            text-decoration: underline;
+            margin-left: 30px;
+            color: $text-color;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                width: 15px;
+                height: 20px;                
+                top: 0;
+                left: -26px;
+                background: url("../img/icons/footer-icons/task-icon.png");
+            }
+        }
+        &__photos {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 24px;
+            &__photo {
+                margin-left: 16px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                div {
+                    width: 175px;
+                    height: 136px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                p {
+                    font-family: "PT Sans";
+                    margin-top: 12px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    text-decoration-line: underline;
+                    color: #363738;
+                }
+            }
+        }
+    }
+
+    &__btn {
+        width: 248px;
+        height: 50px;
+        margin-top: 75px;
+        background: #0B7572;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FFFFFF;
+        &:hover {
+            transform: scale(1.02);
+            background: #1c7a77;
+        }
+        &:active,
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
